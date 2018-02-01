@@ -1,0 +1,39 @@
+body {
+    background-color: #0828cc;
+    width: 99%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+}
+
+.center {
+    display: flex;
+}
+
+.subscribe-button {
+    display: flex;
+    color: #ffffff;
+}
+.header-name {
+    color: #ffffff;
+    font-family: aktiv-grotesk, sans-serif;
+    font-size: 18px;
+}
+
+.small {
+    color: #ffffff;
+    font-family: aktiv-grotesk, sans-serif;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    width: 20%;
+    align-content: center;
+}
