@@ -20,6 +20,10 @@ header {
 .subscribe-button {
     display: flex;
     color: #ffffff;
+    box-shadow: #ffffff;
+    border: #ffffff, 5px;
+    border-radius: 1100px;
+    font-family: aktiv-grotesk, sans-serif;
 }
 .header-name {
     color: #ffffff;
@@ -36,4 +40,44 @@ header {
     height: 10%;
     width: 20%;
     align-content: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: aktiv-grotesk, sans-serif;
+    font-size: 56px;
+    text-align: center;
+}
+
+span {
+    color: #ffffff;
+    font-family: aktiv-grotesk, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    height: 600px;
+    width: 102px;
+    
+}
+.scroll {
+    color: #ffffff;
+    font-family: aktikv-grotesk, sans-serif;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.invert {
+    writing-mode: sideways-lr;
+    color: #ffffff;
+    font-size: 11px;
+    font-family: aktiv-grotesk, sans-serif;
+
+}
+
+.explore-button {
+    color: #ffffff;
+    font-family: aktiv-grotesk, sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-align: center;
 }
