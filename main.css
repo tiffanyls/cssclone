@@ -1,7 +1,7 @@
 body {
     background-color: #0828cc;
     width: 99%;
-    height: 100%;
+    height: 100vh;
 }
 
 header {
@@ -24,6 +24,7 @@ header {
     border: #ffffff, 5px;
     border-radius: 1100px;
     font-family: aktiv-grotesk, sans-serif;
+    color: #ffffff;
     
 }
 .header-name {
@@ -48,15 +49,18 @@ h1 {
     font-family: aktiv-grotesk, sans-serif;
     font-size: 56px;
     text-align: center;
+    
 }
 
-span {
+p {
     color: #ffffff;
     font-family: aktiv-grotesk, sans-serif;
     font-size: 16px;
     text-align: center;
-    height: 600px;
-    width: 102px;
+    height: 50px;
+    width: 500px;
+    display: flex;
+   
     
 }
 .scroll {
@@ -72,6 +76,7 @@ span {
     color: #ffffff;
     font-size: 11px;
     font-family: aktiv-grotesk, sans-serif;
+    display: inline-block;
 
 }
 
@@ -80,5 +85,7 @@ span {
     font-family: aktiv-grotesk, sans-serif;
     font-size: 11px;
     letter-spacing: 1px;
-    text-align: center;
+    
+    display: flex;
+    align-content: center;
 }
