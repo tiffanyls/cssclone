@@ -6,31 +6,42 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 50px;
 }
 
 .left {
     display: flex;
+
 }
 
 .center {
     display: flex;
+    justify-content: space-around;
+   
 }
 
 .subscribe-button {
     display: flex;
+    justify-content: center;
     background-color: #0828cc;
     box-shadow: #ffffff;
-    border: #ffffff, 5px;
+    border: #ffffff, 10px;
     border-radius: 1100px;
+    width: 100px;
+    height: 40px;
     font-family: aktiv-grotesk, sans-serif;
     color: #ffffff;
-    
+    text-align: center;
+    line-height: 40px;
+
 }
+
 .header-name {
     color: #ffffff;
     font-family: aktiv-grotesk, sans-serif;
     font-size: 18px;
+    padding: 5px;
 }
 
 .small {
@@ -49,25 +60,34 @@ h1 {
     font-family: aktiv-grotesk, sans-serif;
     font-size: 56px;
     text-align: center;
-    
+    padding-top: 50px;
+    padding-bottom: 10px;
+
 }
 
-p {
+.center-content {
+   
+}
+p.intro {
     color: #ffffff;
     font-family: aktiv-grotesk, sans-serif;
     font-size: 16px;
-    text-align: center;
     height: 50px;
     width: 500px;
     display: flex;
+    line-height: 25px;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
    
-    
 }
+
 .scroll {
     color: #ffffff;
     font-family: aktikv-grotesk, sans-serif;
     font-size: 14px;
     text-align: center;
+    margin-top: 80px;
 
 }
 
